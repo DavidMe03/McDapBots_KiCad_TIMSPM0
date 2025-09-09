@@ -1,0 +1,28 @@
+### Footprint positions - created on 2024-08-16T11:24:41-0500 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                 Package                 PosX       PosY       Rot  Side
+C1        10uF                CAPPM3528X210N       70.1040   -80.2640   90.0000  top
+C2        10uF                CAPPM3528X210N       82.8040   -80.0100   90.0000  top
+C3        10uF                CAPPM3528X210N       73.0250  -130.6300  -90.0000  top
+C4        10uF                CAPPM3528X210N       59.6900  -130.8100  -90.0000  top
+C5        10uF                CAPPM3528X210N      137.1600   -69.8500    0.0000  top
+C6        10uF                CAPPM3528X210N      108.1300   -66.6750    0.0000  top
+C7        10uF                CAPPM3528X210N       81.2800   -69.8500    0.0000  top
+C8        10uF                CAPPM3528X210N      111.7600  -114.3000    0.0000  top
+C9        0.1uF               C_0603_1608Metric   111.6200  -111.1250    0.0000  top
+J2_J4     LaunchPad           LaunchPad            87.6450  -109.2200   90.0000  top
+J3_J1     LaunchPad           LaunchPad           130.8250  -109.2200   90.0000  top
+LED1      3.3V                APT1608CGCK          50.1650  -120.9670  -90.0000  top
+R1        4.7k                R_0603_1608Metric    74.9300  -100.9650  -90.0000  top
+R2        4.7k                R_0603_1608Metric   139.7000  -100.9650  -90.0000  top
+R3        1.5k                R_0603_1608Metric   140.8430  -121.4750   90.0000  top
+R4        10k                 R_0603_1608Metric   166.3700  -150.5580  -90.0000  top
+R5        0.1                 R_1206_3216Metric   114.8080   -94.6805   90.0000  top
+R6        0.1                 R_1206_3216Metric   108.4580   -94.6805   90.0000  top
+R7        750                 R_0603_1608Metric    50.1650  -124.8410  -90.0000  top
+U1        DRV8847PWPR         SOP65P640X120-17N   111.7600  -104.4950  -90.0000  top
+U2        LM2937IMP-5.0_NOPB  SOT230P700X180-4N    76.4400   -79.9850   90.0000  top
+U3        LM2937IMP-3.3_NOPB  SOT230P700X180-4N    66.2800  -130.8100  -90.0000  top
+## End
