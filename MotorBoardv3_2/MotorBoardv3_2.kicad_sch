@@ -19340,6 +19340,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 246.38 152.4)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08191d98-e039-4013-a446-27ee810ce84e")
+		(property "Sheetname" "RN4871"
+			(at 246.38 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RN4871.kicad_sch"
+			(at 246.38 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MotorBoardv3_2"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
