@@ -962,7 +962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4641a125-6c22-41d4-b924-90d65164561f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0101"
 			(at 121.92 50.8 0)
 			(effects
 				(font
@@ -1012,7 +1012,7 @@
 		(instances
 			(project ""
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/08191d98-e039-4013-a446-27ee810ce84e"
-					(reference "#PWR021")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -1103,7 +1103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 125.73 40.6399 0)
 			(effects
 				(font
@@ -1112,7 +1112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RSLK2:C_0603_1608Metric"
 			(at 122.8852 43.18 0)
 			(effects
 				(font

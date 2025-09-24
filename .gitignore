@@ -19,6 +19,7 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 /build
+/MotorBoardv3_2-backups
 
 # Netlist files (exported from Eeschema)
 *.net
