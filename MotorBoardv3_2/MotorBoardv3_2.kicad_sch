@@ -9727,6 +9727,7 @@
 	)
 	(label "ELB"
 		(at 133.35 97.155 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9737,6 +9738,7 @@
 	)
 	(label "ESP_RxD"
 		(at 89.535 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9747,6 +9749,7 @@
 	)
 	(label "ELA"
 		(at 138.43 93.345 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9757,6 +9760,7 @@
 	)
 	(label "ERA"
 		(at 183.515 93.345 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9767,6 +9771,7 @@
 	)
 	(label "Ch_PD"
 		(at 121.285 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9777,6 +9782,7 @@
 	)
 	(label "LP3_3"
 		(at 20.32 24.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9787,6 +9793,7 @@
 	)
 	(label "ERB"
 		(at 183.515 97.155 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9797,6 +9804,7 @@
 	)
 	(label "VBUS"
 		(at 48.895 19.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9807,6 +9815,7 @@
 	)
 	(label "ESP_TxD"
 		(at 120.65 128.905 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11717,7 +11726,7 @@
 				)
 			)
 		)
-		(property "Value" "Reflector SPI"
+		(property "Value" "Reflector I2C"
 			(at 213.995 68.58 0)
 			(effects
 				(font
