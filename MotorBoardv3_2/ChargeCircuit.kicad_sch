@@ -2139,6 +2139,17 @@
 		)
 		(uuid "fe27845b-3f45-4da2-bc61-5eb31269f2f0")
 	)
+	(label "V+"
+		(at 115.57 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7436e3a-8cfb-484c-8fbd-4bd82dddcebf")
+	)
 	(global_label "BAT7.2V"
 		(shape input)
 		(at 184.15 60.96 0)
