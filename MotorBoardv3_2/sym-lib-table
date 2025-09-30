@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "VoltageDisplay")(type "KiCad")(uri "${KIPRJMOD}/VoltageDisplay.kicad_sym")(options "")(descr ""))
+)
