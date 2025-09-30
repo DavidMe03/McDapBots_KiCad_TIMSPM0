@@ -12123,67 +12123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RSLK2:MountingHole")
-		(at 260.35 155.575 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31459a76-2464-468c-8e29-db4ed77691f6")
-		(property "Reference" "H5"
-			(at 273.05 153.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 260.35 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RSLK2:MountingHole_4_40"
-			(at 260.35 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Drill hole for 4-40 screw"
-			(at 260.35 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "MotorBoardv3_2"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RSLK2:Testpoint_1")
 		(at 127 81.915 0)
 		(unit 1)
@@ -12393,7 +12332,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ce7b187-829d-4537-80cd-bf53a98fbee9")
 		(property "Reference" "C9"
 			(at 165.1 146.05 0)
@@ -13126,7 +13064,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6103dc0a-389b-4267-b96d-732b7cb2bbfa")
 		(property "Reference" "H10"
 			(at 267.97 149.225 0)
@@ -15951,67 +15888,6 @@
 			(project "MotorBoardv3_2"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RSLK2:MountingHole")
-		(at 260.35 151.765 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8deef56-3944-4008-82f2-69964054d8f3")
-		(property "Reference" "H4"
-			(at 273.05 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 260.35 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RSLK2:MountingHole_4_40"
-			(at 260.35 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Drill hole for 4-40 screw"
-			(at 260.35 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "MotorBoardv3_2"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "H4")
 					(unit 1)
 				)
 			)

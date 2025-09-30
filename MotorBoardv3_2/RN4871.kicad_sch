@@ -1182,7 +1182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:Microchip_RN4871"
+		(property "Footprint" "VoltageDisplay:RN4871_eval"
 			(at 107.95 81.28 0)
 			(effects
 				(font
