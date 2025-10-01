@@ -20260,7 +20260,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23629,6 +23629,14 @@
 		(uuid "390b1b9d-dd5b-4a18-aeb7-ef7c92fe7c76")
 	)
 	(segment
+		(start 113.257 60.98)
+		(end 118.477 60.98)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "39f29591-6eb8-4797-93a0-aa64847b9caf")
+	)
+	(segment
 		(start 78.165 78.56)
 		(end 76.44 76.835)
 		(width 0.75)
@@ -23765,6 +23773,14 @@
 		(uuid "7debd354-5f1c-49bd-823b-b73f8d7cb12a")
 	)
 	(segment
+		(start 113.357 42.43)
+		(end 113.987 42.43)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "8071dd7c-c9f3-450d-ab27-e4c5b3fc2fc8")
+	)
+	(segment
 		(start 82.73 69.85)
 		(end 84.582 69.85)
 		(width 0.75)
@@ -23795,6 +23811,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "90768d53-99b8-4e5e-b53f-8e45ebf6bda9")
+	)
+	(segment
+		(start 113.987 42.43)
+		(end 116.387 40.03)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "9c2127c5-2653-428e-82f3-e637bf5942af")
 	)
 	(segment
 		(start 109.58 66.675)
@@ -23957,6 +23981,15 @@
 		(uuid "23e79a01-5c57-4376-9a22-9a68544dc10e")
 	)
 	(via
+		(at 116.387 40.03)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "263f5824-10db-4175-90d4-fb3f24979694")
+	)
+	(via
 		(at 84.582 69.85)
 		(size 0.8)
 		(drill 0.4)
@@ -23987,6 +24020,24 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "4dc7d887-3799-4c16-bea6-376aeaedafba")
+	)
+	(via
+		(at 113.257 60.98)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "59e2afd8-813f-4f4e-b203-c764600fe1f6")
+	)
+	(via
+		(at 113.357 42.43)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "7b87e08d-f21c-4789-97f6-e8eb81428147")
 	)
 	(via
 		(at 78.76 159.3)
@@ -24035,6 +24086,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "d5da88fd-b873-4823-bedc-8a63846f70f7")
+	)
+	(via
+		(at 118.477 60.98)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "e7c03491-1fed-4056-b634-dc9e1ddfd6cf")
 	)
 	(via
 		(at 85.12 122.398)
