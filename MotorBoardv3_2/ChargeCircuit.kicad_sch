@@ -1182,6 +1182,107 @@
 				)
 			)
 		)
+		(symbol "RSLK2:Testpoint_1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TP"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RSLK2:Testpoint_1x1"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Testpoint"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Testpoint"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Testpoint_1_0_1"
+				(circle
+					(center -1.905 3.175)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Testpoint_1_1_1"
+				(pin passive line
+					(at -1.905 0 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_BJT:TIP42A"
 			(pin_names
 				(offset 0) hide)
@@ -1548,6 +1649,12 @@
 		(uuid "9a251946-336f-46d0-b264-97ccd9887c2f")
 	)
 	(junction
+		(at 95.25 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0aa908a-3e86-4c1f-8a1d-f1de23e1d5c3")
+	)
+	(junction
 		(at 149.86 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1558,6 +1665,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6643b9d-e9a3-48b3-a6d1-30d79981178d")
+	)
+	(junction
+		(at 123.19 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b85cfa38-f1be-499b-a6ca-da620325ffcd")
+	)
+	(junction
+		(at 121.92 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b88d88b9-53ec-4479-a542-a8c68377981d")
+	)
+	(junction
+		(at 121.92 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbb3e71b-522a-48ff-b196-6a84f93790a6")
 	)
 	(junction
 		(at 104.14 41.91)
@@ -1584,6 +1709,12 @@
 		(uuid "eceb1aa1-2374-486a-8fdd-07109ddd7aa9")
 	)
 	(junction
+		(at 95.25 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6eec49b-cebc-4e36-a8ff-ed32df37496c")
+	)
+	(junction
 		(at 162.56 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1601,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 49.53) (xy 121.92 59.69)
+			(xy 121.92 49.53) (xy 121.92 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1611,13 +1742,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 74.93) (xy 95.25 41.91)
+			(xy 95.25 74.93) (xy 95.25 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08671aee-97f4-4b6e-9a3a-5c4db18a5dec")
+	)
+	(wire
+		(pts
+			(xy 119.38 81.28) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba0090f-74c7-4e61-bd13-43eeff397479")
 	)
 	(wire
 		(pts
@@ -1658,6 +1799,26 @@
 			(type default)
 		)
 		(uuid "17435668-1aaf-48b6-a64e-f6dedfa146ab")
+	)
+	(wire
+		(pts
+			(xy 123.19 71.12) (xy 127 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1581b3-0d0b-4a19-8d91-f844daf1a707")
+	)
+	(wire
+		(pts
+			(xy 88.9 91.44) (xy 95.25 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4ffd61-3105-4fec-b7ea-b5d8a1ce6111")
 	)
 	(wire
 		(pts
@@ -1751,6 +1912,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 69.85) (xy 123.19 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4216a438-6d6d-407b-9cb4-2743c3dc11b9")
+	)
+	(wire
+		(pts
+			(xy 123.19 69.85) (xy 123.19 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4293dcfd-f107-41c9-bf5c-1d6f9e3efea5")
+	)
+	(wire
+		(pts
 			(xy 140.97 49.53) (xy 149.86 49.53)
 		)
 		(stroke
@@ -1771,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 80.01) (xy 95.25 109.22)
+			(xy 95.25 80.01) (xy 95.25 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1811,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 71.12) (xy 127 71.12)
+			(xy 121.92 71.12) (xy 123.19 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1868,6 +2049,16 @@
 			(type default)
 		)
 		(uuid "80fc710c-2ffa-4424-a83e-43fd147e1995")
+	)
+	(wire
+		(pts
+			(xy 121.92 57.15) (xy 121.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81fab126-b0a9-4a4b-90a1-2c424ae0f05e")
 	)
 	(wire
 		(pts
@@ -1941,6 +2132,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 55.88) (xy 95.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5221bb-371d-4664-8871-f824426145b1")
+	)
+	(wire
+		(pts
 			(xy 113.03 64.77) (xy 121.92 64.77)
 		)
 		(stroke
@@ -1948,6 +2149,16 @@
 			(type default)
 		)
 		(uuid "b400f8b6-7799-44a2-a6f9-8437b4c256f9")
+	)
+	(wire
+		(pts
+			(xy 116.84 57.15) (xy 121.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91eee5b-3d5a-4590-aa30-abb800c92a4e")
 	)
 	(wire
 		(pts
@@ -2011,6 +2222,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 55.88) (xy 95.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70cd796-8dc2-4a1b-9695-522ac8f64f8b")
+	)
+	(wire
+		(pts
 			(xy 162.56 93.98) (xy 162.56 97.79)
 		)
 		(stroke
@@ -2028,6 +2249,16 @@
 			(type default)
 		)
 		(uuid "da970915-5bc1-4145-a405-9a8beb5b5480")
+	)
+	(wire
+		(pts
+			(xy 95.25 91.44) (xy 95.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc30c5d-43e9-4d31-acc6-b0b16e88218f")
 	)
 	(wire
 		(pts
@@ -2342,6 +2573,134 @@
 		)
 	)
 	(symbol
+		(lib_id "RSLK2:Testpoint_1")
+		(at 120.65 67.945 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f209714-9324-4447-90dd-d0c5f88b9696")
+		(property "Reference" "TP20"
+			(at 116.84 65.913 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VREF"
+			(at 116.84 67.437 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RSLK2:Testpoint_1x1"
+			(at 114.935 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint"
+			(at 120.65 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a908ec6-d19a-470f-ae10-1788658af49e")
+		)
+		(instances
+			(project "MotorBoardv3_2"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c3070603-99fb-449f-960f-a7ad5e65d177"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RSLK2:Testpoint_1")
+		(at 88.9 89.535 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ef6cd25-dde0-4af3-b4dd-9559afba9834")
+		(property "Reference" "TP21"
+			(at 85.725 94.615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JACK-"
+			(at 85.598 97.409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RSLK2:Testpoint_1x1"
+			(at 83.185 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint"
+			(at 88.9 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c9d2e43-c336-4a8f-b4a6-ba27cf81a3e6")
+		)
+		(instances
+			(project "MotorBoardv3_2"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c3070603-99fb-449f-960f-a7ad5e65d177"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Barrel_Jack")
 		(at 87.63 77.47 0)
 		(unit 1)
@@ -2586,6 +2945,70 @@
 			(project "MotorBoardv3_2"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c3070603-99fb-449f-960f-a7ad5e65d177"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RSLK2:Testpoint_1")
+		(at 119.38 79.375 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "897bd8c3-c8e8-4475-93f1-7c1574bad8dc")
+		(property "Reference" "TP18"
+			(at 116.205 84.455 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEMP"
+			(at 116.078 87.249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RSLK2:Testpoint_1x1"
+			(at 113.665 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint"
+			(at 119.38 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca2e3f81-ac05-411c-a28f-5d63d0d5e518")
+		)
+		(instances
+			(project "MotorBoardv3_2"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c3070603-99fb-449f-960f-a7ad5e65d177"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -3171,6 +3594,71 @@
 		)
 	)
 	(symbol
+		(lib_id "RSLK2:Testpoint_1")
+		(at 116.84 55.245 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d70999f5-3a5c-4eab-b2eb-03759747b6a3")
+		(property "Reference" "TP17"
+			(at 113.665 51.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "THI"
+			(at 113.665 53.975 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RSLK2:Testpoint_1x1"
+			(at 111.125 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint"
+			(at 116.84 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de16914b-4078-4f4b-b939-5ef601c4b98a")
+		)
+		(instances
+			(project "MotorBoardv3_2"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c3070603-99fb-449f-960f-a7ad5e65d177"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 129.54 45.72 0)
 		(unit 1)
@@ -3305,6 +3793,70 @@
 			(project "MotorBoardv3_2"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c3070603-99fb-449f-960f-a7ad5e65d177"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RSLK2:Testpoint_1")
+		(at 88.9 53.975 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deea0080-1871-4c02-90c6-aedd151e61f7")
+		(property "Reference" "TP19"
+			(at 85.725 59.055 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JACK+"
+			(at 85.598 61.849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RSLK2:Testpoint_1x1"
+			(at 83.185 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint"
+			(at 88.9 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4128d3ce-bc7e-4a7a-933c-1148509936de")
+		)
+		(instances
+			(project "MotorBoardv3_2"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c3070603-99fb-449f-960f-a7ad5e65d177"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
