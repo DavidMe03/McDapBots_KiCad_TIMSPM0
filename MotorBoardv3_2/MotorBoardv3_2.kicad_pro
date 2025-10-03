@@ -520,7 +520,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./plots3_2",
+      "plot": "McDapBoardv1_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "v1.0.0/model.step",

@@ -122,7 +122,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "./plots3_2")
+			(outputdirectory "McDapBoardv1_gerber/")
 		)
 	)
 	(net 0 "")
@@ -7229,7 +7229,7 @@
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "TP8"
 			(at 32.258 1.651 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "5d91c104-31dc-4166-aa96-25329aa10cf1")
 			(effects
 				(font
@@ -12552,8 +12552,8 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "TP7"
-			(at 19.558 6.731 0)
-			(layer "F.SilkS")
+			(at 17.27 6.47 0)
+			(layer "F.Fab")
 			(uuid "744ef147-fd65-46fd-b599-c4d0dcf32d1e")
 			(effects
 				(font
@@ -17857,8 +17857,8 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "TP15"
-			(at 15.367 1.124 0)
-			(layer "F.SilkS")
+			(at 17.092 1.124 0)
+			(layer "F.Fab")
 			(uuid "122cc652-50d5-4fb1-8bf4-c0423fb0bf5b")
 			(effects
 				(font
@@ -20567,7 +20567,7 @@
 				(xy 71.2978 94.95) (xy 143.6878 94.95)
 			)
 			(height -15.565)
-			(gr_text "72.3900 mm"
+			(gr_text "2.8500 in"
 				(at 107.4928 78.285 0)
 				(layer "F.Fab")
 				(uuid "41de7245-3d8a-4127-a84f-a6066aaa7b7e")
@@ -28632,7 +28632,7 @@
 			(xy 74.93 151.13) (xy 143.51 151.13)
 		)
 		(height 8.89)
-		(gr_text "68.5800 mm"
+		(gr_text "2.7000 in"
 			(at 109.22 159.07 0)
 			(layer "F.Fab")
 			(uuid "2b6ad099-a324-4656-ac94-de3839523de4")
@@ -28665,7 +28665,7 @@
 			(xy 131.572 120.65) (xy 131.572 147.955)
 		)
 		(height -10.414)
-		(gr_text "27.3050 mm"
+		(gr_text "1.0750 in"
 			(at 141.036 134.3025 90)
 			(layer "F.Fab")
 			(uuid "8ad8f472-d9ef-4235-a286-3e326673af81")
@@ -28698,7 +28698,7 @@
 			(xy 131.572 120.65) (xy 136.652 120.65)
 		)
 		(height 27.305)
-		(gr_text "5.0800 mm"
+		(gr_text "0.2000 in"
 			(at 134.112 147.005 0)
 			(layer "F.Fab")
 			(uuid "bce94036-40f5-4f68-bb69-724f6a8ee9c7")
@@ -28731,7 +28731,7 @@
 			(xy 107.31 182.26) (xy 107.31 20.25)
 		)
 		(height 151.33)
-		(gr_text "162.0100 mm"
+		(gr_text "6.3783 in"
 			(at 257.49 101.255 90)
 			(layer "User.8")
 			(uuid "95fbc787-db52-4033-8164-79e0c027f297")
@@ -28764,10 +28764,76 @@
 			(xy 107.357 182.25) (xy 107.357 82.11)
 		)
 		(height 139.693)
-		(gr_text "100.1400 mm"
+		(gr_text "3.9425 in"
 			(at 245.9 132.18 90)
 			(layer "User.8")
 			(uuid "b22815ab-d5d6-426d-9d9e-4ea322753360")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.9")
+		(uuid "72e76792-08a4-42cf-9425-ad75d714b522")
+		(pts
+			(xy 107.31 182.26) (xy 107.357 24.15)
+		)
+		(height 88.129218)
+		(gr_text "6.2248 in"
+			(at 194.312714 103.230855 89.98296818)
+			(layer "User.9")
+			(uuid "72e76792-08a4-42cf-9425-ad75d714b522")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.9")
+		(uuid "9c33c3a7-14ef-4c20-a09a-fdd91074ec4a")
+		(pts
+			(xy 172.72 62.23) (xy 44.45 62.23)
+		)
+		(height 52.68)
+		(gr_text "5.0500 in"
+			(at 108.585 8.4 0)
+			(layer "User.9")
+			(uuid "9c33c3a7-14ef-4c20-a09a-fdd91074ec4a")
 			(effects
 				(font
 					(size 1 1)
