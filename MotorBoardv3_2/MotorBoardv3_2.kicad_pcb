@@ -88,7 +88,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(grid_origin 107.357 182.25)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+			(layerselection 0x00010ec_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
@@ -20567,7 +20567,7 @@
 				(xy 71.2978 94.95) (xy 143.6878 94.95)
 			)
 			(height -15.565)
-			(gr_text "2.8500 in"
+			(gr_text "2850.0000 mils"
 				(at 107.4928 78.285 0)
 				(layer "F.Fab")
 				(uuid "41de7245-3d8a-4127-a84f-a6066aaa7b7e")
@@ -28632,7 +28632,7 @@
 			(xy 74.93 151.13) (xy 143.51 151.13)
 		)
 		(height 8.89)
-		(gr_text "2.7000 in"
+		(gr_text "2700.0000 mils"
 			(at 109.22 159.07 0)
 			(layer "F.Fab")
 			(uuid "2b6ad099-a324-4656-ac94-de3839523de4")
@@ -28665,7 +28665,7 @@
 			(xy 131.572 120.65) (xy 131.572 147.955)
 		)
 		(height -10.414)
-		(gr_text "1.0750 in"
+		(gr_text "1075.0000 mils"
 			(at 141.036 134.3025 90)
 			(layer "F.Fab")
 			(uuid "8ad8f472-d9ef-4235-a286-3e326673af81")
@@ -28698,7 +28698,7 @@
 			(xy 131.572 120.65) (xy 136.652 120.65)
 		)
 		(height 27.305)
-		(gr_text "0.2000 in"
+		(gr_text "200.0000 mils"
 			(at 134.112 147.005 0)
 			(layer "F.Fab")
 			(uuid "bce94036-40f5-4f68-bb69-724f6a8ee9c7")
@@ -28731,7 +28731,7 @@
 			(xy 107.31 182.26) (xy 107.31 20.25)
 		)
 		(height 151.33)
-		(gr_text "6.3783 in"
+		(gr_text "6378.3465 mils"
 			(at 257.49 101.255 90)
 			(layer "User.8")
 			(uuid "95fbc787-db52-4033-8164-79e0c027f297")
@@ -28764,7 +28764,7 @@
 			(xy 107.357 182.25) (xy 107.357 82.11)
 		)
 		(height 139.693)
-		(gr_text "3.9425 in"
+		(gr_text "3942.5197 mils"
 			(at 245.9 132.18 90)
 			(layer "User.8")
 			(uuid "b22815ab-d5d6-426d-9d9e-4ea322753360")
@@ -28797,7 +28797,7 @@
 			(xy 107.31 182.26) (xy 107.357 24.15)
 		)
 		(height 88.129218)
-		(gr_text "6.2248 in"
+		(gr_text "6224.8034 mils"
 			(at 194.312714 103.230855 89.98296818)
 			(layer "User.9")
 			(uuid "72e76792-08a4-42cf-9425-ad75d714b522")
@@ -28830,7 +28830,7 @@
 			(xy 172.72 62.23) (xy 44.45 62.23)
 		)
 		(height 52.68)
-		(gr_text "5.0500 in"
+		(gr_text "5050.0000 mils"
 			(at 108.585 8.4 0)
 			(layer "User.9")
 			(uuid "9c33c3a7-14ef-4c20-a09a-fdd91074ec4a")

@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.7*
-G04 #@! TF.CreationDate,2025-10-03T10:30:52-04:00*
+G04 #@! TF.CreationDate,2025-10-03T11:55:05-04:00*
 G04 #@! TF.ProjectId,MotorBoardv3_2,4d6f746f-7242-46f6-9172-6476335f322e,V2.0.2b*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.7) date 2025-10-03 10:30:52*
+G04 Created by KiCad (PCBNEW 8.0.7) date 2025-10-03 11:55:05*
 %MOMM*%
 %LPD*%
 G01*
