@@ -8942,6 +8942,7 @@
 	)
 	(label "ELB"
 		(at 133.35 97.155 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8952,6 +8953,7 @@
 	)
 	(label "ELA"
 		(at 138.43 93.345 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8962,6 +8964,7 @@
 	)
 	(label "ERA"
 		(at 183.515 93.345 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8972,6 +8975,7 @@
 	)
 	(label "LP3_3"
 		(at 20.32 24.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8982,6 +8986,7 @@
 	)
 	(label "ERB"
 		(at 183.515 97.155 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8992,6 +8997,7 @@
 	)
 	(label "VBUS"
 		(at 48.895 19.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18691,44 +18697,6 @@
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "TP7")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 246.38 152.4)
-		(size 12.7 5.08)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "08191d98-e039-4013-a446-27ee810ce84e")
-		(property "Sheetname" "RN4871"
-			(at 246.38 151.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RN4871.kicad_sch"
-			(at 246.38 158.0646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "MotorBoardv3_2"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(page "2")
 				)
 			)
 		)
