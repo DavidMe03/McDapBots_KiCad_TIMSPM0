@@ -4800,6 +4800,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "VoltageDisplay:VoltageDisplay"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5183,12 +5328,6 @@
 		(uuid "2899a921-6789-4030-b0bb-def3573759d7")
 	)
 	(junction
-		(at 118.11 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b900d2c-504b-47dc-a1c9-b84e48785edb")
-	)
-	(junction
 		(at 25.4 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5301,6 +5440,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e6c51c1-4c6f-45d1-81fb-3d3623e93747")
+	)
+	(junction
+		(at 119.38 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61f67f22-f58c-4797-9059-0af5bf9e27c0")
 	)
 	(junction
 		(at 213.36 53.34)
@@ -6234,7 +6379,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 25.4) (xy 118.11 25.4)
+			(xy 116.84 25.4) (xy 119.38 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6411,16 +6556,6 @@
 			(type default)
 		)
 		(uuid "538b9c06-5cab-4e72-b88c-c9f3b3581bc6")
-	)
-	(wire
-		(pts
-			(xy 118.11 25.4) (xy 118.11 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "541955b8-e435-42e1-9af1-9d2f168f4ce4")
 	)
 	(wire
 		(pts
@@ -6704,13 +6839,23 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 36.83) (xy 118.11 41.91)
+			(xy 119.38 46.99) (xy 119.38 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70f94b77-d37d-4f7c-ae1f-538a1e14b493")
+	)
+	(wire
+		(pts
+			(xy 119.38 25.4) (xy 119.38 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71cd44e3-e7a7-4989-a8cf-d82a0d977a86")
 	)
 	(wire
 		(pts
@@ -7154,6 +7299,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 25.4) (xy 120.015 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98320850-ae7b-4e02-a6fa-675eaccbd575")
+	)
+	(wire
+		(pts
 			(xy 22.86 45.72) (xy 26.035 45.72)
 		)
 		(stroke
@@ -7421,16 +7576,6 @@
 			(type default)
 		)
 		(uuid "a6982ee7-497d-4d09-8cac-86b29cd10ee8")
-	)
-	(wire
-		(pts
-			(xy 118.11 25.4) (xy 120.015 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a850f8de-c0e1-4aee-b6c7-904982eb2905")
 	)
 	(wire
 		(pts
@@ -8191,6 +8336,16 @@
 			(type default)
 		)
 		(uuid "e61d643f-ec96-40a2-9ad2-ca8febec104b")
+	)
+	(wire
+		(pts
+			(xy 119.38 39.37) (xy 119.38 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70fca80-97e1-4bfe-81f2-95d4139fb862")
 	)
 	(wire
 		(pts
@@ -14973,7 +15128,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 41.91 0)
+		(at 119.38 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14982,7 +15137,7 @@
 		(fields_autoplaced yes)
 		(uuid "951a196e-53d0-45a3-8a5c-c399b0874c3d")
 		(property "Reference" "#PWR021"
-			(at 118.11 48.26 0)
+			(at 119.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14991,7 +15146,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 46.99 0)
+			(at 119.38 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14999,7 +15154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 41.91 0)
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15008,7 +15163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 41.91 0)
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15017,7 +15172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 41.91 0)
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15676,6 +15831,75 @@
 			(project "MotorBoardv3_2"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 119.38 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6eaea34-fc73-40fb-b891-1b8c167d3373")
+		(property "Reference" "SW1"
+			(at 107.442 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 107.442 34.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2ec67eb-3866-4149-a48a-278c72957ce1")
+		)
+		(pin "2"
+			(uuid "159f1389-60cf-45d8-97e6-ee3136fb88f8")
+		)
+		(instances
+			(project ""
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -16718,7 +16942,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 113.03 34.29 0)
+		(at 114.3 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16727,7 +16951,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc237901-1f82-4380-8e5f-6c6ad57c550e")
 		(property "Reference" "J19"
-			(at 113.665 29.21 0)
+			(at 114.935 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16735,7 +16959,7 @@
 			)
 		)
 		(property "Value" "Voltage Display Port"
-			(at 113.665 31.75 0)
+			(at 114.935 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16743,7 +16967,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm_Relief"
-			(at 113.03 34.29 0)
+			(at 114.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16752,7 +16976,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 34.29 0)
+			(at 114.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16761,7 +16985,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 113.03 34.29 0)
+			(at 114.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
