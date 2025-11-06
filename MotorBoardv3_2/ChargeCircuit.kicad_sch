@@ -2579,7 +2579,6 @@
 	)
 	(label "DRV"
 		(at 134.62 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2590,7 +2589,6 @@
 	)
 	(label "TEMP"
 		(at 125.73 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2601,7 +2599,6 @@
 	)
 	(label "V+"
 		(at 115.57 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2612,7 +2609,6 @@
 	)
 	(label "REF"
 		(at 123.19 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
