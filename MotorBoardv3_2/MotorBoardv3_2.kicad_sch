@@ -15863,7 +15863,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
 			(at 114.3 34.29 0)
 			(effects
 				(font

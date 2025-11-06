@@ -210,6 +210,7 @@
 	(net 82 "unconnected-(U7-PGM2-Pad9)")
 	(net 83 "unconnected-(U7-PGM0-Pad3)")
 	(net 84 "unconnected-(U7-PGM3-Pad10)")
+	(net 85 "Net-(J19-Pin_1)")
 	(footprint "RSLK2:APT1608CGCK"
 		(layer "F.Cu")
 		(uuid "01be9685-a3fe-4f8b-aede-f0630576776c")
@@ -3257,7 +3258,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
-			(net 49 "+7.2V")
+			(net 85 "Net-(J19-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "6bbfbf15-2df5-4817-93c4-649a4092d9cc")
@@ -24385,6 +24386,273 @@
 			(drill 3.175)
 			(layers "*.Mask")
 			(uuid "9386abd9-0980-4cb1-b407-0e1493546e1d")
+		)
+	)
+	(footprint "Button_Switch_THT:SW_CW_GPTS203211B"
+		(layer "F.Cu")
+		(uuid "e0d6323b-a920-4d10-8634-f9125ab2bfab")
+		(at 1.475 3.625)
+		(descr "SPST Off-On Pushbutton, 1A, 30V, CW Industries P/N GPTS203211B, http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf")
+		(tags "SPST button switch Off-On")
+		(property "Reference" "SW1"
+			(at 6.7 -4.35 0)
+			(layer "F.SilkS")
+			(uuid "e27ff59e-b3d8-4de4-8658-49d0a9f3bf5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 6.7 9.65 0)
+			(layer "F.Fab")
+			(uuid "b86e8a8b-1736-46da-a0cd-a1c3013989a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a53e1afc-560d-4191-88be-2de45513ca3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4fbaea1-8914-4d9b-89cf-2d37ff663913")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00d79a60-171d-4996-8cff-912f1f5fcc6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a6eaea34-fc73-40fb-b891-1b8c167d3373")
+		(sheetname "Root")
+		(sheetfile "MotorBoardv3_2.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 0.6 -3.45)
+			(end 12.8 -3.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "95bc416a-158e-4c28-b989-06feee66bf2d")
+		)
+		(fp_line
+			(start 0.6 -1.46)
+			(end 0.6 -3.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a678a055-8e8d-4f63-b2c6-8436a154c3b3")
+		)
+		(fp_line
+			(start 0.6 1.46)
+			(end 0.6 3.84)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8b017476-59ec-4010-81a0-d18d9dcf8826")
+		)
+		(fp_line
+			(start 0.6 8.75)
+			(end 0.6 6.76)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5d95658b-9122-4242-9c2c-fa57088aa108")
+		)
+		(fp_line
+			(start 12.8 -3.45)
+			(end 12.8 8.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f49ab27a-857e-41ce-82d6-e01bbff7eeb8")
+		)
+		(fp_line
+			(start 12.8 8.75)
+			(end 0.6 8.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b1f1168e-f358-456b-b8a4-6067965e017c")
+		)
+		(fp_circle
+			(center 6.7 2.65)
+			(end 9.35 2.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "0624d8fc-aaa2-48cf-bacb-be8cd08d5db5")
+		)
+		(fp_line
+			(start -1.45 -3.6)
+			(end -1.45 8.9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3ba7f5aa-f92c-4b72-b8de-b849c010b252")
+		)
+		(fp_line
+			(start -1.45 8.9)
+			(end 12.95 8.9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1321062a-1ecc-4498-a590-8501b4173bc5")
+		)
+		(fp_line
+			(start 12.95 -3.6)
+			(end -1.45 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aed603d9-fbb2-4586-b63a-b07e71d5f4f2")
+		)
+		(fp_line
+			(start 12.95 8.9)
+			(end 12.95 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ec0b711d-bf94-426a-bd0c-f09ce5d159b3")
+		)
+		(fp_line
+			(start 0.7 -3.35)
+			(end 0.7 8.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "819c1d60-7e4d-4ca6-94c6-e02b73fb7bfa")
+		)
+		(fp_line
+			(start 0.7 8.65)
+			(end 12.7 8.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1b981cd6-3835-483d-9c55-8983095f6525")
+		)
+		(fp_line
+			(start 12.7 -3.35)
+			(end 0.7 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "60324293-1288-4fa9-b435-baca111f68ae")
+		)
+		(fp_line
+			(start 12.7 8.65)
+			(end 12.7 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0f4b3961-b6eb-4ba9-9e43-f40aa1494c44")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 6.7 2.65 0)
+			(layer "F.Fab")
+			(uuid "696cde7d-25ca-4891-a2cd-163f6faadf9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.4 2.4)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 85 "Net-(J19-Pin_1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "ec9156cf-07ec-46c1-a54f-bc7ec03e632d")
+		)
+		(pad "2" thru_hole circle
+			(at 0 5.3)
+			(size 2.4 2.4)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 49 "+7.2V")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "087e6bff-02af-4f0e-991b-6a667322158b")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_CW_GPTS203211B.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "VoltageDisplay:PRT-14313"
