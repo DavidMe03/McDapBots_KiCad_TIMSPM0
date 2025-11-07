@@ -9339,6 +9339,7 @@
 	)
 	(label "ELB"
 		(at 133.35 97.155 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9349,6 +9350,7 @@
 	)
 	(label "PushButton_1"
 		(at 180.34 13.97 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9359,6 +9361,7 @@
 	)
 	(label "PushButton_2"
 		(at 180.34 33.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9369,6 +9372,7 @@
 	)
 	(label "ELA"
 		(at 138.43 93.345 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9379,6 +9383,7 @@
 	)
 	(label "ERA"
 		(at 183.515 93.345 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9389,6 +9394,7 @@
 	)
 	(label "PushButton_1"
 		(at 220.98 13.97 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9399,6 +9405,7 @@
 	)
 	(label "LP3_3"
 		(at 20.32 24.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9409,6 +9416,7 @@
 	)
 	(label "PushButton_2"
 		(at 220.98 21.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9419,6 +9427,7 @@
 	)
 	(label "ERB"
 		(at 183.515 97.155 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9429,6 +9438,7 @@
 	)
 	(label "PushButton_2"
 		(at 119.38 34.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9439,6 +9449,7 @@
 	)
 	(label "VBUS"
 		(at 48.895 19.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9449,6 +9460,7 @@
 	)
 	(label "PushButton_1"
 		(at 119.38 31.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9761,6 +9773,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA13"
+		(shape input)
+		(at 191.135 97.155 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d8a7e79-0bb0-435a-aa18-3d8c8a8a1ec9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.8978 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10139,7 +10173,7 @@
 			)
 		)
 	)
-	(global_label "PB12"
+	(global_label "PB9"
 		(shape input)
 		(at 227.33 93.345 0)
 		(fields_autoplaced yes)
@@ -10151,7 +10185,7 @@
 		)
 		(uuid "70e37879-d6ea-438b-93de-6de0d4ab3e36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.2742 93.345 0)
+			(at 234.0647 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10839,6 +10873,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA12"
+		(shape input)
+		(at 133.35 97.155 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e50e9319-d55c-4b9d-ad3f-1fd1a45629f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.5872 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12219,70 +12275,6 @@
 			(project ""
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "H24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RSLK2:Testpoint_1")
-		(at 133.35 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23530530-bf5b-43bd-804f-afbc399f23e4")
-		(property "Reference" "TP14"
-			(at 128.27 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ELB"
-			(at 126.365 97.155 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RSLK2:Testpoint_1x1"
-			(at 127.635 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Testpoint"
-			(at 133.35 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ad0595d-8ea6-4812-864d-2608cee8a61e")
-		)
-		(instances
-			(project "MotorBoardv3_2"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -14359,71 +14351,6 @@
 			(project "MotorBoardv3_2"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RSLK2:Testpoint_1")
-		(at 191.135 95.25 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ff1462e-015a-4ccd-a26a-165a1c66e661")
-		(property "Reference" "TP15"
-			(at 196.215 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ERB"
-			(at 198.12 97.155 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RSLK2:Testpoint_1x1"
-			(at 196.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.135 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Testpoint"
-			(at 191.135 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a3d33ed-0cfe-41ca-9851-66f63238847a")
-		)
-		(instances
-			(project "MotorBoardv3_2"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
-					(reference "TP15")
 					(unit 1)
 				)
 			)
