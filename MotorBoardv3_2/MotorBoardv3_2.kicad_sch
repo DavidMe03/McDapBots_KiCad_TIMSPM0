@@ -5793,6 +5793,22 @@
 		(color 0 0 0 0)
 		(uuid "fc2b776c-3035-4b52-8e5e-7780a7e6c439")
 	)
+	(no_connect
+		(at 138.43 121.92)
+		(uuid "27b15c11-4531-4bc5-8e40-049b63a59e3b")
+	)
+	(no_connect
+		(at 138.43 124.46)
+		(uuid "3210ed3b-20c1-44e4-b575-4de1992afa64")
+	)
+	(no_connect
+		(at 138.43 127)
+		(uuid "435aa3e0-0063-40c6-a137-26956babbed6")
+	)
+	(no_connect
+		(at 138.43 129.54)
+		(uuid "5defd7dd-e2d4-4464-9426-e1fc19dc32f4")
+	)
 	(wire
 		(pts
 			(xy 99.06 167.005) (xy 112.395 167.005)
@@ -11537,6 +11553,80 @@
 			(project "MotorBoardv3_2"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 133.35 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "146af112-4e3e-4d5e-9a27-c246e497b689")
+		(property "Reference" "J10"
+			(at 133.985 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Reflector Support"
+			(at 133.985 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7228ef14-d979-400d-a68a-5129a5a3134e")
+		)
+		(pin "3"
+			(uuid "de78a94f-295e-413d-8cb4-1e29ec4408d4")
+		)
+		(pin "2"
+			(uuid "48127894-8bea-4f1b-b580-2debc8f32ac1")
+		)
+		(pin "1"
+			(uuid "871c64d9-b896-436c-b62b-f3d48b139895")
+		)
+		(instances
+			(project "MotorBoardv3_2"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "J10")
 					(unit 1)
 				)
 			)
