@@ -1343,6 +1343,252 @@
 				)
 			)
 		)
+		(symbol "RSLK2:APTD1608LSECK_J3-PF"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "APTD1608LSECK_J3-PF"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RSLK2:APT1608CGCK"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTD1608LSECK-J3-PF.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standard LEDs - SMD 1.6X0.8MM DOME LENS LOW CURRENT SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.75"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "604-APTD1608LSECKJ3F"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/APTD1608LSECK-J3-PF?qs=6oMev5NRZMF205XngnIJQg%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Kingbright"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "APTD1608LSECK/J3-PF"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5879214"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "APTD1608LSECK_J3-PF_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "RSLK2:Testpoint_1"
 			(pin_names
 				(offset 0) hide)
@@ -1774,6 +2020,12 @@
 		(uuid "483d1e81-d6d6-4899-8ca2-098d51f54f24")
 	)
 	(junction
+		(at 95.25 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d0c2e47-a625-4a99-9d7a-882bcd2624d0")
+	)
+	(junction
 		(at 176.53 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1832,6 +2084,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6643b9d-e9a3-48b3-a6d1-30d79981178d")
+	)
+	(junction
+		(at 95.25 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b477c089-14c6-46b5-a653-7344e7285265")
 	)
 	(junction
 		(at 123.19 71.12)
@@ -2139,6 +2397,16 @@
 	)
 	(wire
 		(pts
+			(xy 65.024 81.788) (xy 65.024 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5724a2cb-cf28-4a46-beb5-8d14f9a29a5a")
+	)
+	(wire
+		(pts
 			(xy 87.63 74.93) (xy 95.25 74.93)
 		)
 		(stroke
@@ -2229,6 +2497,26 @@
 	)
 	(wire
 		(pts
+			(xy 65.024 41.91) (xy 65.024 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7776d419-bf08-4aef-8408-0ba95eee0722")
+	)
+	(wire
+		(pts
+			(xy 65.024 41.91) (xy 95.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4d46ac-532a-4059-be17-a941c6655780")
+	)
+	(wire
+		(pts
 			(xy 149.86 85.09) (xy 149.86 109.22)
 		)
 		(stroke
@@ -2276,6 +2564,26 @@
 			(type default)
 		)
 		(uuid "9366c6e3-c568-4fb2-b476-931216642a9c")
+	)
+	(wire
+		(pts
+			(xy 65.024 89.408) (xy 65.024 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949be95d-6328-4650-92a0-271fff1ba7b2")
+	)
+	(wire
+		(pts
+			(xy 65.024 109.22) (xy 95.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4d1454-67ff-40b4-ba08-5a781db80b4b")
 	)
 	(wire
 		(pts
@@ -3422,6 +3730,76 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 65.024 85.598 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afb5bfe3-67b1-4347-88fa-f0514880deaa")
+		(property "Reference" "R4"
+			(at 67.31 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 67.31 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RSLK2:R_0603_1608Metric"
+			(at 66.04 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.024 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 65.024 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea6e6fd5-c8ae-42dd-802b-d57161f96d53")
+		)
+		(pin "1"
+			(uuid "632c01be-8f3d-422d-a5b4-bb5c3a6045e2")
+		)
+		(instances
+			(project "MotorBoardv3_2"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c3070603-99fb-449f-960f-a7ad5e65d177"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 121.92 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4123,6 +4501,137 @@
 			(project "MotorBoardv3_2"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c3070603-99fb-449f-960f-a7ad5e65d177"
 					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RSLK2:APTD1608LSECK_J3-PF")
+		(at 65.024 71.755 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1f302a5-1252-4593-9556-85abab0de432")
+		(property "Reference" "LED2"
+			(at 69.469 62.865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 69.469 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RSLK2:APT1608CGCK"
+			(at 158.674 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTD1608LSECK-J3-PF.pdf"
+			(at 258.674 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD 1.6X0.8MM DOME LENS LOW CURRENT SMD"
+			(at 65.024 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.75"
+			(at 458.674 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "604-APTD1608LSECKJ3F"
+			(at 558.674 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/APTD1608LSECK-J3-PF?qs=6oMev5NRZMF205XngnIJQg%3D%3D"
+			(at 658.674 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at 758.674 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "APTD1608LSECK/J3-PF"
+			(at 858.674 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5879214"
+			(at 65.024 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80600cb4-ec5a-40ad-8621-9bca86bd66d7")
+		)
+		(pin "2"
+			(uuid "1441c4c9-54bd-4c3d-95ce-8ca14ee293b4")
+		)
+		(instances
+			(project "MotorBoardv3_2"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c3070603-99fb-449f-960f-a7ad5e65d177"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
