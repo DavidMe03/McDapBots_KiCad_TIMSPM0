@@ -9479,7 +9479,6 @@
 	)
 	(label "ELB"
 		(at 134.62 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9490,7 +9489,6 @@
 	)
 	(label "PushButton_1"
 		(at 180.34 13.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9501,7 +9499,6 @@
 	)
 	(label "PushButton_2"
 		(at 180.34 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9512,7 +9509,6 @@
 	)
 	(label "ELA"
 		(at 138.43 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9523,7 +9519,6 @@
 	)
 	(label "ERA"
 		(at 184.15 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9534,7 +9529,6 @@
 	)
 	(label "PushButton_1"
 		(at 220.98 13.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9545,7 +9539,6 @@
 	)
 	(label "LP3_3"
 		(at 20.32 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9556,7 +9549,6 @@
 	)
 	(label "PushButton_2"
 		(at 220.98 21.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9567,7 +9559,6 @@
 	)
 	(label "ERB"
 		(at 184.15 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9578,7 +9569,6 @@
 	)
 	(label "PushButton_2"
 		(at 119.38 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9589,7 +9579,6 @@
 	)
 	(label "VBUS"
 		(at 49.53 19.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9600,7 +9589,6 @@
 	)
 	(label "PushButton_1"
 		(at 119.38 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
