@@ -19,13 +19,22 @@ This project was created as a capstone project for the University of Virginia De
 ## What is contained here
 
 **Project Symbols/Footprints**
+
 Symbols that are specific to this project such as the robot chassis. 
 
 **Schematic File**
+
 KiCad schematic file that shows the electrical connections of each component of the robot. 
 
 **Layout File**
+
 KiCad layout file that shows how the components are placed and routed on the PCB. 
+
+**Bill of Materials Files**
+
+BOM.xlsx contains a list of all the parts needed for the PCB.
+
+Digikey_Parts_List.xlsx can be uploaded to Digikey to select the parts needed for one copy of this board.
 
 ## How to use this repository
 1. Copy the repository locally to your computer
