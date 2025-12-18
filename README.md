@@ -30,5 +30,5 @@ KiCad layout file that shows how the components are placed and routed on the PCB
 ## How to use this repository
 1. Copy the repository locally to your computer
 2. Using KiCad 8.0 (or higher version) open the file `MotorBoardv3_2.kicad_pro`
-3. Generate necessary gerber files and orde components
+3. Generate necessary gerber files and order components
 4. Follow the provided construction guide to build the robot
