@@ -1,6 +1,6 @@
 # McDap Bots Pedagogical Robot
 
-This project was created as a capstone project for the University of Virginia Department of Electrical and Computer Engineering. Our goal was to create a small robot which could be programmed by students, for use as a teaching aide in an embedded systems course. This repository contains the software component of this, both drivers and application code.
+This project was created as a capstone project for the University of Virginia Department of Electrical and Computer Engineering. Our goal was to create a small robot which could be programmed by students, for use as a teaching aide in an embedded systems course. This repository contains the hardware files specific to the robot's main board.
 
 **Authors**
 - Colby Wise
